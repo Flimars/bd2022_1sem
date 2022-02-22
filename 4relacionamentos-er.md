@@ -102,7 +102,7 @@ Uma especialização pode ter quantas entidades filhas forem necessárias, inclu
 
 ## Agregação
 
-A **agregação**, entidade **associativa**, ocorre quando precisamos relacionar dois relacionamentos entre si.
+A **agregação** ou **entidade associativa** ocorre quando precisamos relacionar dois relacionamentos entre si.
 
 Imagine que tenhamos duas entidades **Cliente** e **Produto** ligadas pelo relacionamento **Compra**. Agora, suponha que tenhamos que modificar esse modelo de modo que seja necessário saber quantas prestações serão pagas em uma compra. Relacionar a entidade **Prestação** com **Cliente** ou com **Produto** não faz sentido, uma vez que as prestações serão referentes à compra efetuada. Sendo assim, a entidade **Prestação** deve se relacionar à **Compra**, como mostra a figura abaixo. O retângulo desenhado em volta do relacionamento indica a **agregação**.
 
@@ -110,8 +110,7 @@ Imagine que tenhamos duas entidades **Cliente** e **Produto** ligadas pelo relac
 ![agregacao](agregacao.png)
 
 
-Podemos também reescrever o modelo sem utilizar agregação. Neste caso, o relaciomento **Compra** seria transformado em uma **entidade**
-que poderia ser relacionada à **Prestação**, conforme figura abaixo.
+É possível também reescrever o diagrama ER anterior sem utilizar agregação (ou entidade associativa). Neste caso, o relaciomento **Compra** seria transformado em uma **entidade** que poderia ser relacionada à **Prestação**, conforme figura abaixo.
 
 
 ![agregacao-sem](agregacao-sem.png)
