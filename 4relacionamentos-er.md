@@ -82,7 +82,7 @@ Imagine que existam alguns poucos alunos que representam grupos de outros alunos
 
 ![relacionamento-recursivo](relacionamento-recursivo.png)
 
-## Especialização
+## Herança ou Especialização
 
 Especialização consiste na subdivisão de uma entidade mais genérica (ou entidade pai) em um conjunto de entidades especializadas (ou entidades filhas).
 
@@ -100,12 +100,13 @@ Também não é necessário indicar uma chave primária para as entidades filhas
 
 Uma especialização pode ter quantas entidades filhas forem necessárias, inclusive uma, se for o caso. Além disso, uma entidade filha pode também ser entidade pai para outra especialização.
 
+No exemplo, a especialização é um caso de herança total pois uma **Pessoa** cadastrada deverá ser sempre um **Aluno** ou um **Professor**. Neste tipo de especialização, recomenda-se inserir um "t" minúsculo ao lado do símbolo que representa a herança/especialização. Em situações onde é possível que haja **Pessoas** que não sejam nem **Aluno** nem **Professor** cadastradas, a especilização/herança é considerada **parcial**. Assim, neste caso, deve-se colocar um "p" minúsculo ao lado do símbolo que representa tal relacionamento.
+
 ## Agregação OU Entidade Associativa
 
 A **agregação** ou **entidade associativa** ocorre quando precisamos relacionar dois relacionamentos entre si.
 
 Imagine que tenhamos duas entidades **Cliente** e **Produto** ligadas pelo relacionamento **Compra**. Agora, suponha que tenhamos que modificar esse modelo de modo que seja necessário saber quantas prestações serão pagas em uma compra. Relacionar a entidade **Prestação** com **Cliente** ou com **Produto** não faz sentido, uma vez que as prestações serão referentes à compra efetuada. Sendo assim, a entidade **Prestação** deve se relacionar à **Compra**, como mostra a figura abaixo. O retângulo desenhado em volta do relacionamento indica a **agregação**.
-
 
 ![agregacao](agregacao.png)
 
