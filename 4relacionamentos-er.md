@@ -100,7 +100,7 @@ Também não é necessário indicar uma chave primária para as entidades filhas
 
 Uma especialização pode ter quantas entidades filhas forem necessárias, inclusive uma, se for o caso. Além disso, uma entidade filha pode também ser entidade pai para outra especialização.
 
-## Agregação
+## Agregação OU Entidade Associativa
 
 A **agregação** ou **entidade associativa** ocorre quando precisamos relacionar dois relacionamentos entre si.
 
@@ -116,19 +116,3 @@ Imagine que tenhamos duas entidades **Cliente** e **Produto** ligadas pelo relac
 ![agregacao-sem](agregacao-sem.png)
 
 É importante ressaltar que um mesmo problema pode ter diferentes interpretações, e assim gerar diagramas diferenciados. Isso não significa que apenas um dos diagramas está certo.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
