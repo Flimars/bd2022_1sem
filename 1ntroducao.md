@@ -107,6 +107,8 @@ As etapas de modelagem (conceitual e lógica) são as principais fases de desenv
 
 ## Conteúdo Complementar 
 
+[Slides](https://github.com/IgorAvilaPereira/bd2022_1sem/raw/main/1ntroducao.pdf)
+
 **Tipos de Bancos de Dados:**
 
 * [https://youtu.be/1kVGYXneexI](https://youtu.be/1kVGYXneexI)
