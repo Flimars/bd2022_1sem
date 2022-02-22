@@ -1,3 +1,3 @@
 # Construindo ER's
 
-* [Slides](5contruindo-er.pdf)
+* [Slides](https://github.com/IgorAvilaPereira/bd2022_1sem/raw/main/5construindo-er.pdf)
