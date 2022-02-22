@@ -59,7 +59,7 @@ Os atributos podem ainda ser divididos em 6 categorias:
 
 É o atributo quer permite apenas o armazenamento de um valor por vez. Por exemplo, o atributo **CPF** é monovalorado porque a possui apenas um número de CPF. Caso o CPF seja alterado ele é substituído pelo novo valor. Assim, uma pessoa **nunca** terá cadastrado mais um CPF no mesmo tempo.
 
-** Atributo nulo**
+**Atributo nulo**
 
 É o atributo que permite que seja inserido um valor nulo para ele. Valor nulo representa a inexistência de um valor, ou seja, significa que o usuário não precisa cadastrar um valor para o atributo e pode deixá-lo vazio.
 
