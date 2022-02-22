@@ -36,7 +36,7 @@ Um atributo pode ser representado graficamente por uma elipse com o nome do atri
 
 ![atributos](atributos.png)
 
-Outra forma de representação utilizada por algumas ferramentas é representar o atributo como ujma bolinha ligada à entidade e com o nome do atributo ao lado.
+Outra forma de representação utilizada por algumas ferramentas é representar o atributo como uma "bolinha" ligada à entidade e com o nome do atributo ao lado.
 
 ![outra-notacao-er](outra-notacao-er.png)
 
