@@ -126,3 +126,8 @@ Como os atributos individualmente podem ser repetir, vamos tentar uma chave prim
 ## Resumo - Representação Gráfica - Atributos
 
 ![tipos-atributos](tipos-atributos.png)
+
+
+## Conteúdo complementar
+
+[Slides](https://github.com/IgorAvilaPereira/bd2022_1sem/raw/main/2introducao-er.pdf)
